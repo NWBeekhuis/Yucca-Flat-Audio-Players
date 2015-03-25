@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yucca Flat - Material Design</title>
+		<script type="text/javascript" src="js/amplitude.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	</head>
+	<div id="player">
+        <div id="player-wrapper">
+            <div id="amplitude-play-pause" class="amplitude-paused"></div>
+            <div id="player-song-info">
+                <span id="amplitude-now-playing-title">Title</span><br>
+                <span id="amplitude-now-playing-artist">Artist</span>
+                <div id="player-time-info">
+                    <span id="amplitude-current-time">0:00</span>
+                    <span id="amplitude-time-divider">-</span>
+                    <span id="amplitude-audio-duration">0:00</span>
+                </div>
+            </div>        
+            <div id="amplitude-song-time-visualization"></div>
+        </div>
+        <div id="player-footer">
+            <span id="payoff">Yucca Flat Material Edition - Made by <a href="http://yuccaflat.area36.nl">Area_36</a></span>
+        </div>
+    </div>
+	<script type="text/javascript">
+		amplitude_config = {
+			"amplitude_songs": [
+				{
+					"name": "Sleepless",
+					"artist": "Dj Rosted",
+					"album": "In Search Of",
+					"url": "songs/Rosted/Sleepless.mp3",
+					"live": false,
+					"cover_art_url": "images/jendusaep.jpg"
+				}
+			]
+		}
+	</script>
+</html>
