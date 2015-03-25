@@ -1,5 +1,6 @@
 # Yucca-Flat-Audio-Players
 
-This is a thing i made to expiriment with the new html5 audio tag. 
+I made Yucca Flat after I did some experimenting with the HTML5 audio tag. 
 
-Feel free to use this in your own project
+This is the latest one I made in Material Design.
+Feel free to use this in your own project.
